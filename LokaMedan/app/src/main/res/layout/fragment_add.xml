@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah Wishlist Wisata "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/inputNamaWisata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Wisata"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888" />
+
+        <EditText
+            android:id="@+id/inputLokasiWisata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lokasi Wisata"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888" />
+
+        <Button
+            android:id="@+id/btnTambahBooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah Wishlist"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</ScrollView>
